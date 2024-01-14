@@ -1,3 +1,5 @@
+#!/usr/bin/env fish
+
 echo "Installing extensions..."
 
 set ext_categories language theme tool
