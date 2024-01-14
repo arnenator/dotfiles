@@ -1,11 +1,15 @@
 tap "homebrew/bundle"
 
 brew "git"
+brew "gnupg"
+brew "pinentry-mac"
 brew "mas"
 brew "vim"
 brew "coreutils"
-brew "gnupg"
-brew "pinentry-mac"
+brew "gnu-sed"
+brew "make"
+brew "gawk"
+brew "curl"
 
 # Programming languages
 brew "dotnet"
