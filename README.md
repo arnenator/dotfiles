@@ -18,7 +18,7 @@ On the Windows setup we are going to use Chocolatey in order to install applicat
 ### Starting Setup
 **MAC**
 ```fish
-fish -c ./setup.fish
+fish ./setup.fish
 ```
 
 **Windows**
