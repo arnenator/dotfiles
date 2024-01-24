@@ -21,6 +21,7 @@ cask "iterm2"
 cask "google-chrome"
 cask "visual-studio-code"
 cask "discord"
+cask "docker"
 
 # Applications from App Store
 mas "Graphic", id: 404705039

@@ -11,6 +11,7 @@ choco install wsl-ubuntu-2204
 choco install dotnet
 choco install golang
 choco install rust
+choco install docker-desktop
 
 # Setup vscode
 Push-Location -Path "./vscode"
