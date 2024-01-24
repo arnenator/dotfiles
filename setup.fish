@@ -1,5 +1,7 @@
 #!/usr/bin/env fish
 
+brew bundle install --file ./Brewfile
+
 # Setup fish configurations
 fish -c '
     cd ./fish
