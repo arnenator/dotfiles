@@ -22,6 +22,7 @@ fish -c ./setup.fish
 ```
 
 **Windows**
+When you want to do this in windows then it may require you to open up your powershell windows as an administrator
 ```pwsh
-# TODO: How the fuck? Look into execution policy?
+./setup.ps1
 ```
