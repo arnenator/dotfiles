@@ -11,3 +11,8 @@ fish -c '
     cd ./vscode
     fish setup_code.fish
 '
+
+fish -c '
+    cd ./git
+    fish setup_git.fish
+'

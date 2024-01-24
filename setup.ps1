@@ -10,4 +10,12 @@ choco install dotnet
 choco install golang
 choco install rust
 
-# TODO: How to call the other ps1 scripts and setup this shit
+# Setup vscode
+Push-Location -Path "./vscode"
+./setup_vscode.ps1
+Pop-Location
+
+# Setup git
+Push-Location -Path "./git"
+./setup_git.ps1
+Pop-Location
