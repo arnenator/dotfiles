@@ -10,6 +10,7 @@ brew "gnu-sed"
 brew "make"
 brew "gawk"
 brew "curl"
+brew "jump"
 
 # Programming languages
 brew "dotnet"
