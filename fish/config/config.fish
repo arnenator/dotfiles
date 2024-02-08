@@ -18,9 +18,10 @@ if status is-interactive
     fish_add_path --prepend ~/go/bin
     fish_add_path /opt/homebrew/bin
     eval (/opt/homebrew/bin/brew shellenv)
+    jump shell fish | source
 
     fish_add_path '/Applications/Visual Studio Code.app/Contents/Resources/app/bin'
- 
+
     fish_add_path '~/.cargo/env' # Add path to RUST cargo
 
     set -x EDITOR mg
