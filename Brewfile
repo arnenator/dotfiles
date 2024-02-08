@@ -17,6 +17,7 @@ brew "go"
 brew "rust"
 
 # Applications
+cask "git-credential-manager"
 cask "iterm2"
 cask "google-chrome"
 cask "visual-studio-code"
