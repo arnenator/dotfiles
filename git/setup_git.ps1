@@ -4,6 +4,9 @@ echo "Setup Git Configuration"
 git config --global user.name  "Andreas Tietgen"
 git config --global user.email "9461145+Arneproductions@users.noreply.github.com"
 
+# Set credential manager
+git config --global credential.helper "/usr/local/share/gcm-core/git-credential-manager"
+
 # Set pull configurations
 git config --global pull.rebase false
 
